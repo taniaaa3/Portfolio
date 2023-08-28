@@ -7,7 +7,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
         <div className="flex my-5 flex-row justify-between px-5 font-mono items-center w-full text-white">
-            <p className="font-bold text-6xl cursor-pointer head sm:ml-10 ml-2 font-mono">Taniya D.</p>
+            <p className="font-bold text-6xl cursor-pointer head sm:ml-10 ml-2">Taniya D.</p>
             <div className="">
                 {toggleMenu?
                 <AiOutlineClose size={35} className='mr-3 cursor-pointer sm:hidden' onClick={()=>{setToggleMenu(false)}}/> : 
