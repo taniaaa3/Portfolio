@@ -1,0 +1,57 @@
+body[data-aos-duration='2000'] [data-aos], [data-aos][data-aos][data-aos-duration='2000'] {
+  transition-duration: 2000ms;
+}
+body{
+  color: white;
+    background: radial-gradient(circle, rgba(107,30,63,1)11%, rgba(8,34,65,1)97%);
+}
+.head {
+  font-family: 'tangerine';
+}
+.blue-glassmorphism{
+  background: rgb(39,51,89,0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+.text-gradient{
+  background: linear-gradient(90deg, #ba5370, #e611c9);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: black 1px;
+}
+.gradient{
+  box-shadow: black 1px 1px 3px;
+  background: radial-gradient(100% 100% at 100% 0px, #5adaff 0, #5468ff 100%);
+  transition: all 300ms linear;
+}
+.pink-gradient{
+  transition: all 300ms linear;
+    box-shadow: black 1px 1px 3px;
+    background: radial-gradient(100% 100% at 100% 0, #f37cae 0, #d40d49 100%);
+}
+.green-gradient {
+  transition: all 300ms linear;
+  box-shadow: black 1px 1px 3px;
+  background: radial-gradient(100% 100% at 100% 0, #d8e8ec 0, #078623 100%);
+}
+.black-gradient {
+  transition: all 300ms linear;
+  box-shadow: black 1px 1px 3px;
+  background: radial-gradient(100% 100% at 100% 0, #7e7f80 0, #000000 100%);
+}
+.red-gradient {
+  transition: all 300ms linear;
+  box-shadow: black 1px 1px 3px;
+  background: radial-gradient(100% 100% at 100% 0, #ced5db 0, #af0707 100%);
+}
+.gradient:hover, .green-gradient:hover, .black-gradient:hover, .red-gradient:hover, .pink-gradient:hover {
+  box-shadow: black 2px 2px 5px;
+}
+.gradient:active, .green-gradient:active, .black-gradient:active, .red-gradient:active, .pink-gradient:active {
+  box-shadow: inset black 0 3px 7px;
+  transform: translateY(2px);
+}
