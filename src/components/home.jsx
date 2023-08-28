@@ -41,7 +41,7 @@ const Home = () => {
                 </h1>
                 <div className="sm:grid md:grid md:grid-cols-3 sm:grid-cols-2 block w-full gap-4 place-content-evenly drop-shadow-xl m-5 mb-10">
                     {data.map((val)=>{
-
+                        return(
                     <div className="flex flex-col justify-evenly rounded-lg bg-[rgb(214,214,214)] shadow-black shadow-2xl transition duration-150 ease-in hover:-translate-y-6 text-black m-3">
                         
                         <img src={val.image} alt="image" className="rounded-t-lg w-full h-full" />
@@ -53,7 +53,7 @@ const Home = () => {
                             <a className="gradient rounded-full p-3 m-3" href="https://github.com/taniaaa3/krypt" target="_blank" rel="noreferrer">Github Repo</a>
                         </div>
                     </div>
-                    })}
+                    )})}
                 </div>
                 <Link to='/projects'>
                     <div className="flex flex-row gradient w-full projects mb-5 py-3 rounded-full text-black cursor-pointer justify-center items-center">
