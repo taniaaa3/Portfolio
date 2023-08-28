@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ecae5190.css",
+    "main.js": "/static/js/main.333fd37c.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/1693043931688.jpg": "/static/media/1693043931688.93cccd97a4c7eab53a0a.jpg",
+    "static/media/1693044171358.jpg": "/static/media/1693044171358.c50abb9353953278f399.jpg",
+    "static/media/1693044861785.jpg": "/static/media/1693044861785.b58ea7d44ca42511f84b.jpg",
+    "static/media/saynotofoodwaste.png": "/static/media/saynotofoodwaste.367f2c8fc3a4c7b5124c.png",
+    "static/media/mathCalc.png": "/static/media/mathCalc.ea3def1ca216c208ecab.png",
+    "static/media/leapYearChecker.png": "/static/media/leapYearChecker.3dd96b56836394c0b1eb.png",
+    "static/media/krypt.png": "/static/media/krypt.ea3c9a641073346071ed.png",
+    "static/media/loveCalc.png": "/static/media/loveCalc.d46e82debc770f65b232.png",
+    "static/media/77618316-programming-line-icon-circle-design-vector-illustration-of-coding-resources-objects-removebg-preview.png": "/static/media/77618316-programming-line-icon-circle-design-vector-illustration-of-coding-resources-objects-removebg-preview.4bf8fc4a5fad54112107.png",
+    "static/media/currencyConverter.png": "/static/media/currencyConverter.b50302666b3102ddc9e2.png",
+    "static/media/pokeApp.png": "/static/media/pokeApp.77bf90922664b4fd0abe.png",
+    "static/media/img6.jpg": "/static/media/img6.045f5bcb40ebd7333d24.jpg",
+    "static/media/colorful-illustration-female-programmer-working_23-2148277397-removebg-preview.png": "/static/media/colorful-illustration-female-programmer-working_23-2148277397-removebg-preview.a14e562ebcdc085d4680.png",
+    "static/media/-removebg-preview.png": "/static/media/7bb0d27e44d8c2eff47276ae86bfd6a3-removebg-preview.8c53edb7b60b23f4d91f.png",
+    "static/media/textReverser.png": "/static/media/textReverser.237e7adb0ddd74f7f986.png",
+    "static/media/weatherApp.png": "/static/media/weatherApp.209debd8a026deb9b6d8.png",
+    "static/media/userGenerator.png": "/static/media/userGenerator.6bbe05d12a2a26dec323.png",
+    "static/media/BMICalc.png": "/static/media/BMICalc.655945a3e83da318316c.png",
+    "static/media/loginForm.png": "/static/media/loginForm.c324ac113156d6b29888.png",
+    "static/media/clock.png": "/static/media/clock.eb7226ae8cae1c692e39.png",
+    "index.html": "/index.html",
+    "main.ecae5190.css.map": "/static/css/main.ecae5190.css.map",
+    "main.333fd37c.js.map": "/static/js/main.333fd37c.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecae5190.css",
+    "static/js/main.333fd37c.js"
+  ]
+}
