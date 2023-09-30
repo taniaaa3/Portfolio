@@ -36,7 +36,7 @@ const Home = () => {
         <>
             <Welcome />
             <Skills />
-            <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-col justify-center items-center aos-init">
+            <div className="flex flex-col justify-center items-center aos-init">
                 <h1 className="text-3xl py-3 font-bold">MY <span style={{color: 'rgb(43, 18, 76)'}}>PROJECTS</span>
                 </h1>
                 <div className="sm:grid md:grid md:grid-cols-3 sm:grid-cols-2 block w-full gap-4 place-content-evenly drop-shadow-xl m-5 mb-10">
