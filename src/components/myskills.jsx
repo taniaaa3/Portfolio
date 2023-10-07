@@ -36,7 +36,7 @@ const Skills = () => {
     }]
     return (
         <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-col py-5 justify-evenly items-center">
-            <h1 className="text-3xl py-3 font-bold">MY <span style={{color: 'rgb(43, 18, 76)'}}> SKILLS </span></h1>
+            <h1 className="text-3xl py-3 font-bold">MY SKILLS</h1>
             <div className="py-5 grid sm:grid-cols-3 md:grid-cols-4 grid-cols-2 gap-4">
                 {data.map((val)=>{
                     return(
