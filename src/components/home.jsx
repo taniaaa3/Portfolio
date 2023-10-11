@@ -49,8 +49,8 @@ const Home = () => {
                         <p className="mx-2">{val.desc}</p>
                         <br />
                         <div className="flex flex-row justify-between">
-                            <a className="gradient rounded-full p-3 m-3" href="https://krypt-td.netlify.app" target="_blank" rel="noreferrer">Deployed Site</a>
-                            <a className="gradient rounded-full p-3 m-3" href="https://github.com/taniaaa3/krypt" target="_blank" rel="noreferrer">Github Repo</a>
+                            <a className="gradient rounded-full p-3 m-3" href={val.netlify} target="_blank" rel="noreferrer">Deployed Site</a>
+                            <a className="gradient rounded-full p-3 m-3" href={val.github} target="_blank" rel="noreferrer">Github Repo</a>
                         </div>
                     </div>
                     )})}
