@@ -37,8 +37,7 @@ const Home = () => {
             <Welcome />
             <Skills />
             <div className="flex flex-col justify-center items-center aos-init">
-                <h1 className="text-3xl py-3 font-bold">MY <span style={{color: 'rgb(43, 18, 76)'}}>PROJECTS</span>
-                </h1>
+                <h1 className="text-3xl py-3 font-bold">MY PROJECTS</h1>
                 <div className="sm:grid md:grid md:grid-cols-3 sm:grid-cols-2 block w-full gap-4 place-content-evenly drop-shadow-xl m-5 mb-10">
                     {data.map((val)=>{
                         return(
@@ -49,8 +48,8 @@ const Home = () => {
                         <p className="mx-2">{val.desc}</p>
                         <br />
                         <div className="flex flex-row justify-between">
-                            <a className="gradient rounded-full p-3 m-3" href="https://krypt-td.netlify.app" target="_blank" rel="noreferrer">Deployed Site</a>
-                            <a className="gradient rounded-full p-3 m-3" href="https://github.com/taniaaa3/krypt" target="_blank" rel="noreferrer">Github Repo</a>
+                            <a className="gradient rounded-full p-3 m-3" href={val.netlify} target="_blank" rel="noreferrer">Deployed Site</a>
+                            <a className="gradient rounded-full p-3 m-3" href={val.github} target="_blank" rel="noreferrer">Github Repo</a>
                         </div>
                     </div>
                     )})}
